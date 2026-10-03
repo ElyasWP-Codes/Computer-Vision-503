@@ -36,7 +36,7 @@ Aturan ini dapat diubah pada fungsi `CLASS_RULE` di sel konfigurasi notebook.
 
 Untuk mempercepat training, notebook menyediakan parameter `N_PER_CLASS` (default 150 citra/kelas, split 70/15/15). Syarat tugas **≥ 50 citra per kelas** dicek otomatis oleh notebook.
 
-Dataset (`SANINDO.v1i.coco.zip`) dapat diunduh dari: `<isi link Roboflow / Google Drive>`
+
 
 ---
 
