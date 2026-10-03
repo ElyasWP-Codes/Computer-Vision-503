@@ -88,15 +88,14 @@ Dataset (`SANINDO.v1i.coco.zip`) dapat diunduh dari: `<isi link Roboflow / Googl
 
 ## Hasil
 
-> Bagian ini diisi dari output notebook setelah training selesai.
 
 ### Tabel perbandingan 3 mode
 
 | Mode | Param terlatih | Best val acc | Epoch terbaik | Test acc | Test macro-F1 | Waktu training (s) |
 |---|---|---|---|---|---|---|
-| `scratch` | | | | | | |
-| `feature_extraction` | | | | | | |
-| `fine_tuning` | | | | | | |
+| `scratch` |2,227,715|0.6667|8|0.6212|0.6006|64|
+| `feature_extraction` |3,843|0.803|10|0.7727|0.7676|69|
+| `fine_tuning` |1,685,187|0.8939|9|0.7879|0.7868|43|
 
 ### Grafik akurasi per epoch
 
@@ -110,10 +109,10 @@ Dataset (`SANINDO.v1i.coco.zip`) dapat diunduh dari: `<isi link Roboflow / Googl
 
 Model terpilih: `<isi mode terbaik>`
 
-| Perangkat | Mean (ms) | Median (ms) | P95 (ms) | FPS |
-|---|---|---|---|---|
-| CPU | | | | |
-| GPU (jika ada) | | | | |
+| Perangkat | Mean (ms) | Median (ms) | P95 (ms) | Std (ms) | FPS (1/mean) |
+|---|---|---|---|---|---|
+| CPU |73.85|68.89|22.48|22.48|13.54|
+| cuda |10.41|8.94|16.96|5.49|96.06| 
 
 Pengukuran: batch = 1, input `<IMG_SIZE>`×`<IMG_SIZE>`, warm-up 20 iterasi, 200 iterasi terukur, hanya forward pass.
 
