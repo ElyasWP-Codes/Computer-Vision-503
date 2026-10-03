@@ -6,9 +6,9 @@ Image Classification menggunakan Transfer Learning untuk mengklasifikasikan ting
 
 Notebook ini membandingkan **3 mode pelatihan** pada arsitektur yang sama (MobileNetV2): *training from scratch*, *feature extraction*, dan *fine-tuning*. Hasilnya disajikan dalam tabel perbandingan, grafik akurasi per epoch, dan pengukuran latensi model terpilih.
 
-> **Kelompok:** `<isi nama kelompok>`
-> **Anggota:** `<isi nama & NIM anggota>`
-> **Mata kuliah:** `<isi nama mata kuliah>`
+> **Nama:** `Elyas Wisnu Perdana`
+> **Nim:** `4222411037`
+> **Mata kuliah:** `Computer Vision`
 
 ---
 
